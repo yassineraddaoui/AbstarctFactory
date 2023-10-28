@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AbstarctFactory.iml" filepath="$PROJECT_DIR$/AbstarctFactory.iml" />
       <module fileurl="file://$PROJECT_DIR$/AbstractFactoryAppWinMac/AbstractFactoryAppWinMac.iml" filepath="$PROJECT_DIR$/AbstractFactoryAppWinMac/AbstractFactoryAppWinMac.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Prototype/Prototype.iml" filepath="$PROJECT_DIR$/Prototype/Prototype.iml" />
       <module fileurl="file://$PROJECT_DIR$/Singleton/Singleton.iml" filepath="$PROJECT_DIR$/Singleton/Singleton.iml" />
     </modules>
   </component>

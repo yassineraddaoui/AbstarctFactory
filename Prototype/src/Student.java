@@ -68,3 +68,61 @@ public class Student implements Prototype
 {
     public Prototype getClone();
 }
+
+
+interface clone{
+     Test clone();
+}
+class Test implements  clone{
+
+     int id;
+
+    public Test(int id) {
+        this.id = id;
+    }
+
+    public Test(Test test) {
+        this.id=test.id;
+    }
+
+    @Override
+    public Test clone() {
+        return new Test(this);
+    }
+
+    public static void main(String[] args) {
+        clone c=new Test(123);
+        System.out.println("c = " + c);
+        clone c2=c.clone();
+        System.out.println("c2 = " + c2);
+
+    }
+
+    @Override
+    public String toString() {
+        return "Test{" +
+                "id=" + id +
+                '}';
+    }
+}
+
+class DefinedJDK implements Cloneable{
+    int id;
+
+    public DefinedJDK(int id) {
+        this.id = id;
+    }
+
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        return super.clone();
+    }
+
+    public static void main(String[] args) throws CloneNotSupportedException{
+        DefinedJDK org=new DefinedJDK(1);
+        System.out.println("org = " + org);
+        DefinedJDK copy= (DefinedJDK) org.clone();
+        System.out.println("copy = " + copy);
+
+    }
+}

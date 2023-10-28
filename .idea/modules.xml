@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AbstarctFactory.iml" filepath="$PROJECT_DIR$/AbstarctFactory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AbstractFactoryAppWinMac/AbstractFactoryAppWinMac.iml" filepath="$PROJECT_DIR$/AbstractFactoryAppWinMac/AbstractFactoryAppWinMac.iml" />
     </modules>
   </component>
 </project>
